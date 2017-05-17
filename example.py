@@ -9,9 +9,9 @@ cache_obj = LRU(random_cache_size)
 print("1 ->", cache_obj.get(1))
 
 # returns "not found" as it is the default argument
-print("1 ->", cache_obj.get(1,"not found"))
+print("1 ->", cache_obj.get(1, "not found"))
 
-cache_obj.put(1,2)
+cache_obj.put(1, 2)
 
 # prints 2
 print("1 ->", cache_obj.get(1))
