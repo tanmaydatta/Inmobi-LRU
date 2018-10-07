@@ -1,9 +1,10 @@
-# The LRU cache is implemented using a combination of a dictionary
-# and a circular doubly linked list. Items in the cache are stored in
-# nodes of linked list. The front or head of
-# the list contains the most recently used item, the tail of the list
-# contains the least recently used item.
-
+''''
+The LRU cache is implemented using a combination of a dictionary
+and a circular doubly linked list. Items in the cache are stored in
+nodes of linked list. The front or head of
+the list contains the most recently used item, the tail of the list
+contains the least recently used item.
+''''
 
 # node object.
 class Node(object):
